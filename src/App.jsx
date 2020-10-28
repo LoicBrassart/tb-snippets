@@ -39,7 +39,7 @@ const characters = [
   {
     name: 'Bahl',
     folderName: 'bahl',
-    gallery: ['j1i'],
+    gallery: ['j1i', 'j2i', 'j3i', 'jli'],
   },
 ];
 
