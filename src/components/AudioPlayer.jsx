@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-// import icon from '../../public/img/bahl/1i.png';
 import './AudioPlayer.scss';
 
 function AudioPlayer({ playlist }) {
@@ -14,7 +13,7 @@ function AudioPlayer({ playlist }) {
       </audio>
       <div id="AudioPlayer">
         <div className="controls">
-          <img src={`../../public/img/${current.img}`} alt="" />
+          <img src={`../public/assets/img/${current.img}`} alt="" />
           <h4>{current.name}</h4>
         </div>
         <div className="tracklist">

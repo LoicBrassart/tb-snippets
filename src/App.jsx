@@ -1,5 +1,7 @@
 import AudioPlayer from './components/AudioPlayer';
+import Gallery from './components/Gallery';
 import './App.scss';
+import myImage from './assets/img/bahl/1i.png';
 
 const songs = [
   {
@@ -33,11 +35,20 @@ const songs = [
     filename: '05. arpeggio01_lp.mp3',
   },
 ];
+const characters = [
+  {
+    name: 'Bahl',
+    folderName: 'bahl',
+    gallery: ['j1i'],
+  },
+];
 
 export default function App() {
   return (
     <div id="App">
       <AudioPlayer playlist={songs} />
+      <img src={myImage} alt="" />
+      <Gallery characters={characters} />
     </div>
   );
 }
